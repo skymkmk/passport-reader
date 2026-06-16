@@ -15,7 +15,6 @@ jobs:
         with:
           distribution: temurin
           java-version: 17
-      - uses: gradle/actions/setup-gradle@v6
       - run: ./gradlew assembleRegularDebug
       - uses: actions/upload-artifact@v7
         with:
