@@ -10,7 +10,7 @@ android {
     ndkVersion '23.1.7779620'
     defaultConfig {
         applicationId 'com.tananaev.passportreader'
-        minSdkVersion 19
+        minSdkVersion 21
         targetSdkVersion 34
         versionCode 20
         versionName '3.1'
